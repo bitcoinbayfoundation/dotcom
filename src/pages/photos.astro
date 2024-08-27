@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <div class="mx-auto px-4 my-48">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {Array.from({ length: 47 }, (_, index) => (
+        <div class="break-inside-avoid">
+          <img
+            src={`/gallery/image-${index}.webp`}
+            alt={`Gallery image ${index + 1}`}
+            class="w-full h-auto rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+</Layout>

@@ -20,37 +20,10 @@
     {
         "id": 3,
         "name1": "Group Guidance",
-        "name2": "",
+        "name2": "Classes",
         "background": "",
         "arrow": "./services/ag.svg",
         "link": "./",
         "image": "./services/03.svg"
-    },
-    {
-        "id": 4,
-        "name1": "Email",
-        "name2": "Marketing",
-        "background": "",
-        "arrow": "./services/ag.svg",
-        "link": "./",
-        "image": "./services/04.svg"
-    },
-    {
-        "id": 5,
-        "name1": "Content",
-        "name2": "Creation",
-        "background": "",
-        "arrow": "./services/ag.svg",
-        "link": "./",
-        "image": "./services/05.svg"
-    },
-    {
-        "id": 6,
-        "name1": "Analytics and",
-        "name2": "Tracking",
-        "background": "",
-        "arrow": "./services/ag.svg",
-        "link": "./",
-        "image": "./services/06.svg"
     }
 ]
